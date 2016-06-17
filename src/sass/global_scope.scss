@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Yekan';
+  src: url('../fonts/WebYekan.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/WebYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/WebYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+
+// colors
+$color_gallery_approx: #E1F5FE;
+$color_tuatara_approx: #343434;
+$color_tapa_approx: #757575;
+$color_robins_egg_blue_approx: saturate(lighten(#757575, 2.1), 10);
+
+body {
+	background-image: url('../images/image.jpeg');
+	background-color: #B2DFDB;
+	font-family: Avenir, Helvetica, Tahoma;
+	font-weight: 200;
+	color: #212121;
+	margin: 0;
+}
+
+a {
+  color: saturate(#006064, 10);
+  text-decoration: none;
+	&:hover {
+    cursor: pointer;
+	}
+}

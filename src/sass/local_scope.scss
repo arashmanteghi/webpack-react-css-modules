@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Yekan';
+  src: url('../fonts/WebYekan.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/WebYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/WebYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@mixin box($padding: 10px) {
+	padding: $padding;
+	color: desaturate(#3d435e, 50%);
+	background-color: #3d435e;
+}
+
+.box {
+	@include box(1rem);
+	.hero-title{
+		margin: 0;
+		margin-bottom: 1em;
+	}
+}
+
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	min-height: 100vh;
+	min-width: 100vw;
+	.hero {
+		font-size: 3rem;
+	}
+}
+
+.lead {
+	display: block;
+	margin: 0 1em;
+	font-size: calc(96% + 0.5vw);
+	line-height: 1.5;
+	opacity: .8;
+}
+
+.actor {
+	color: #004D40;
+	&:focus, &:hover {
+		outline: 0;
+		border-bottom: 2px dashed currentcolor;
+		color: #212121;
+	}
+}
