@@ -1,15 +1,13 @@
 # ❄︎ Webpack React CSS Modules ❄︎
 
-[![forthebadge](https://rawgit.com/gorangajic/react-icons/master/react-icons.svg)](https://github.com/arashmanteghi/webpack-react-css-modules/)
-
 This repository is a boilerplate for writing [CSS Modules](https://github.com/css-modules/css-modules) in [React](https://facebook.github.io/react/) components.
 
-## 🔥 How to use
+## How to use
 
 First, you should clone the repo and install the dependencies.
 
 ```bash
-$ git clone git@github.com:arashmanteghi/webpack-react-css-modules.git <projectName>
+$ git clone https://github.com/arashmanteghi/webpack-react-css-modules.git <projectName>
 $ cd <projectName>
 $ [sudo] npm install
 ```
