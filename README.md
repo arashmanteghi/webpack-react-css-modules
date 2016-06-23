@@ -1,6 +1,6 @@
 # ❄︎ Webpack React CSS Modules ❄︎
 
-This repository is a boilerplate for writing [CSS Modules](https://github.com/css-modules/css-modules) in [React](https://facebook.github.io/react/) components based on Siamak Mokhtari(https://twitter.com/sia_mac)'s boilerplate(https://github.com/siamak/webpack-react-babel-boilerplate).
+This repository is a boilerplate for writing [CSS Modules](https://github.com/css-modules/css-modules) in [React](https://facebook.github.io/react/) components based on [Siamak Mokhtari](https://twitter.com/sia_mac)'s [boilerplate](https://github.com/siamak/webpack-react-babel-boilerplate).
 
 ## How to use
 
