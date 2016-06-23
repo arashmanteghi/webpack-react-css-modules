@@ -5,23 +5,9 @@
        url('../fonts/WebYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
 }
 
-@mixin box($padding: 10px) {
-	padding: $padding;
-	color: desaturate(#3d435e, 50%);
-	background-color: #3d435e;
-}
-
-.box {
-	@include box(1rem);
-	.hero-title{
-		margin: 0;
-		margin-bottom: 1em;
-	}
-}
-
-
 .wrapper {
 	display: flex;
+  flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	flex: 1;
@@ -47,4 +33,8 @@
 		border-bottom: 2px dashed currentcolor;
 		color: #212121;
 	}
+}
+
+.basedOn {
+  margin-top: 2.5em;
 }

@@ -1,14 +1,14 @@
 # ❄︎ Webpack React CSS Modules ❄︎
 
-This repository is a boilerplate for writing [CSS Modules](https://github.com/css-modules/css-modules) in [React](https://facebook.github.io/react/) components.
+This repository is a boilerplate for writing [CSS Modules](https://github.com/css-modules/css-modules) in [React](https://facebook.github.io/react/) components based on Siamak Mokhtari(https://twitter.com/sia_mac)'s boilerplate(https://github.com/siamak/webpack-react-babel-boilerplate).
 
 ## How to use
 
 First, you should clone the repo and install the dependencies.
 
 ```bash
-$ git clone https://github.com/arashmanteghi/webpack-react-css-modules.git <projectName>
-$ cd <projectName>
+$ git clone https://github.com/arashmanteghi/webpack-react-css-modules.git
+$ cd webpack-react-css-modules
 $ [sudo] npm install
 ```
 

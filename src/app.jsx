@@ -27,6 +27,10 @@ class App extends React.Component {
 					 + <a href="https://facebook.github.io/react/">React!</a>
 				</h1>
 				<h3 className={styles.lead}>Webpack–React–Babel–SCSS–PostCSS.</h3>
+				<span className={styles.basedOn}>Based on
+					<a href="https://twitter.com/sia_mac" target="_blanl"> Siamak Mokhtari</a>'s
+					<a href="https://github.com/siamak/webpack-react-babel-boilerplate" target="_blank"> boilerplate</a>
+				</span>
 			</section>
 		);
 	}
